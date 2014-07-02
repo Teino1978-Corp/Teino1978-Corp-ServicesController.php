@@ -1,6 +1,9 @@
+<?php   
+
 // /app/Plugin/Usermgmt/View/Services/manage_services.cpt
 
-<?php   if ($this->UserAuth->getGroupName()=='Admin') { ?>
+if ($this->UserAuth->getGroupName()=='Admin') { ?>
+
 <div class="umtop umtop_new">
 
 	<div class="status_message"></div>
@@ -85,3 +88,4 @@
 	</div>
 	<div class="um_box_down"></div>
 </div>
+?>
