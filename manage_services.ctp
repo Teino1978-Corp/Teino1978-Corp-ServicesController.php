@@ -1,6 +1,6 @@
 <?php   
 
-// /app/Plugin/Usermgmt/View/Services/manage_services.cpt
+// /app/Plugin/Usermgmt/View/Services/manage_services.ctp
 
 if ($this->UserAuth->getGroupName()=='Admin') { ?>
 
